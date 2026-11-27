@@ -3,7 +3,7 @@
 // the renderer and HUD paint what is there. The game moves between five
 // screens: title, help, play, paused and game over.
 //
-// ?seed=N fixes the farm's layout. ?shot=title|play|kitchen|end (with
+// ?seed=N fixes the farm's layout. ?shot=title|barn|kitchen|escaped (with
 // &seed=N) stages that scene instead of running the loop, paints it twice
 // and sets window.__shotReady for a screenshot.
 import { BEST_KEY, STEP } from './config.js';
