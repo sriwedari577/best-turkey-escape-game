@@ -21,5 +21,5 @@ Score comes from distance, corn (+25), and fences jumped (+10). Three lives. Esc
 
 - `main.ts` — hands the game in: copies `game/` and `screenshots/` to the output directory and writes `dossier.json` with the vendored Make.fun library.
 - `game/` — the playable game as static files (plain JavaScript, no libraries).
-- `screenshots/` — real renders of the game's own code: kitchen play, title, the barn hide-and-search, and the escaped end screen at the freedom gate.
+- `screenshots/` — real renders of the game's own code: title, kitchen play, the barn hide-and-search, and the escaped end screen at the freedom gate.
 - `vendor/makefun-game.ts` — the kit's dossier library, unchanged.
